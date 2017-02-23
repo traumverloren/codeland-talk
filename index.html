@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Raspberry Pi + React + Socket.IO = Pixel Art 🤖</title>
+	<title>Creating Art With a Raspberry Pi</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,8 +40,8 @@
 		}
 	</style>
 	<header class="caption">
-		<h1>Raspberry Pi + Socket.IO + React = Pixel Art 🤖✨🎨</h1>
-		<h5>Adventures in trying out new hardware, code, and having fun in a personal project</h5>
+		<h1>Creating Art With a Raspberry Pi 🎨</h1>
+		<h5>Adventures in trying out hardware, code, and having fun in a personal project</h5>
 		<p>By Stephanie Nemeth</p>
 		<style>
 		.caption {
@@ -66,10 +66,10 @@
 		</style>
 	</header>
 	<section class="slide" id="cover">
-		<h2>Raspberry Pi + Socket.IO + React</h2>
-		<h2>= Pixel Art 🤖✨🎨</h2>
-		<h5>Adventures in trying out new hardware, code, and having fun in a personal project</h5>
-		<p id="my-site"><a href="http://stephanie.lol/">stephanie.lol</a></p>
+		<h2>Creating Art With a Raspberry Pi</h2>
+		<br />
+		<h5>Adventures in trying out hardware, code, and having fun in a personal project</h5>
+		<p id="my-site"><a href="https://stephanie.lol/">stephanie.lol</a></p>
 		<p id="my-name">Stephanie Nemeth<span id="contact-details"><i class="fa fa-twitter"></i> @stephaniecodes</span></p>
 		<!--
 			To apply styles to the certain slides
@@ -128,10 +128,7 @@
 		<img class="place top left" src="images/burningman.jpg" />
 		<p><em>* I built a fiber optic dress once.</em></p>
 		<ul>
-			<li class="next">[self-taught] Full-stack Ruby on Rails developer</li>
-			<li class="next">Regularly host a <a href="https://www.meetup.com/Bitches-and-Bytes">coffee + code</a> small code group ☕️+💻</li>
-			<li class="next">Co-organized <a href="http://stupidhackathon.wtf">Stupid Hackathon Amsterdam</a> 💩🛠</li>
-			<li class="next">Currently looking for a new [Ruby, React, JS] job 👀 </li>
+			<li>(self-taught) frontend developer</li>
 		</ul>
 		<style>
 			#about-me h2 {
@@ -142,7 +139,7 @@
 			#about-me ul {
 				margin-top: -350px;
 				margin-left: 322px;
-				font-size: 0.85em;
+				font-size: 1em;
 				line-height: 250%;
 			}
 			#about-me p {
@@ -161,30 +158,49 @@
 			}
 		</style>
 	</section>
-	<section class="slide" id="why-why-why">
-		<h2>Overview</h2>
+	<section class="slide" id="about-me">
+		<h2>Hi, I'm Stephanie.</h2>
+		<img class="place top left" src="images/burningman.jpg" />
+		<p><em>I have delicious stroopwafels, find me later!</em></p>
 		<ul>
-			<li class="next">What I built</li>
-			<li class="next">Why I had this idea</li>
-			<li class="next">Build highlights</li>
-			<li class="next">Demo!</li>
-			<li class="next">Lessons learned</li>
-			<li class="next">Final thoughts</li>
+			<li class="next">[self-taught] Frontend developer</li>
+			<li class="next">Live in Amsterdam</li>
+			<li class="next">Regularly host a <a href="https://www.meetup.com/Bitches-and-Bytes">coffee + code</a> small code group ☕️+💻</li>
+			<li class="next">Co-organized <a href="http://stupidhackathon.wtf">Stupid Hackathon Amsterdam</a> 💩🛠</li>
 		</ul>
+	</section>
+	<section class="slide" id="main-thing">
+		<h2 class="shout">But the main thing you should know about me...</h2>
 		<style>
-			#why-why-why h2 {
-				color:#212121;
-				font-family: 'Press Start 2P', cursive;
-				font-size: 1.2em;
-				}
-			#why-why-why a {
-				color: #00BCD4;
-			}
+		.slide .shout::after {
+			position:absolute;
+			top:-300%;
+			right:0;
+			bottom:-300%;
+			left:0;
+			z-index:-1;
+			background:#00BCD4 linear-gradient(135deg,#00BCD4 50%,#00a5bb 50%) no-repeat;
+			content:'';
+		}
+		.slide .shout  {
+			position:absolute;
+			top:50%;
+			left:0;
+			z-index:1;
+			padding-left:96px;
+			width:100%;
+			color:white;
+			font-size:112px;
+			transform:translateY(-50%);
+			font-family: 'Press Start 2P', cursive;
+			line-height: 120%;
+			font-size: 1.6em;
+			color: #fff;
+		}
 		</style>
 	</section>
 	<section class="slide" id="geolize">
-		<div class="marquee"><h2>Stuff I like to build</h2></div>
-		<p id="blockquote">"I value projects that have no value or real usefulness."</p>
+		<p id="blockquote">"I like fun projects!"</p>
 		<p>- Stephanie Nemeth</p>
 		<img src="images/DancingBanana.gif" />
 		<img src="images/DancingBanana.gif" />
