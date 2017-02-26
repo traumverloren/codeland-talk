@@ -66,7 +66,8 @@
 		</style>
 	</header>
 	<section class="slide" id="cover">
-		<h2>Creating Art With a Raspberry Pi</h2>
+		<h2>Creating Art</h2>
+		<h2>with a Raspberry Pi</h2>
 		<br />
 		<h5>Adventures in trying out hardware, code, and having fun in a personal project</h5>
 		<p id="my-site"><a href="https://stephanie.lol/">stephanie.lol</a></p>
@@ -83,24 +84,24 @@
 				background-color: #00BCD4;
 			}
 			#cover h2 {
-				margin:30px -30px 0 0;
+				margin: 20px -30px 0 0;
 				color:#FFF;
 				text-align:left;
-				font-size:1.1em;
+				font-size:1.6em;
 				font-family: 'Press Start 2P', cursive;
 			}
 			#cover h5 {
-				margin:50px 0 30px;
+				margin:30px 0 30px;
 				color:#B2EBF2;
-				text-align:left;
-				font-size:40px;
+				text-align: left;
+				font-size: 45px;
 				font-family: 'VT323', cursive;
 				line-height: 100%;
 			}
 			#cover p {
 				color:#B2EBF2;
 				font-family: 'VT323';
-				font-size:35px;
+				font-size:40px;
 			}
 			#my-name {
 				line-height: 120%;
@@ -114,63 +115,48 @@
 				font-style: normal;
 			}
 			#contact-details {
-				margin-left:318px;
+				margin-left:245px;
 			}
 			#my-site {
-				margin: 110px 0 0;
-				line-height: 120%;
+				margin: 90px 0 0;
+				line-height: 130%;
 				text-align: right;
 				}
 		</style>
 	</section>
-	<section class="slide" id="about-me">
+	
+	<section class="slide about-me" id="about-me">
+		<img src="" alt="">
 		<h2>Hi, I'm Stephanie.</h2>
-		<img class="place top left" src="images/burningman.jpg" />
-		<p><em>* I built a fiber optic dress once.</em></p>
-		<ul>
-			<li>(self-taught) frontend developer</li>
-		</ul>
+		<p class="next" id="emoji">👩‍🔬 <span id="arrow"><i class="fa fa-long-arrow-right"></i></span> 👩‍💻</p>
+		<p class="next">Coding for ~2 years</p>
 		<style>
-			#about-me h2 {
+			.about-me h2 {
 				color:#212121;
 				font-family: 'Press Start 2P', cursive;
-				font-size: 1.2em;
+				font-size: 1.6em;
+				text-align: center;
+				margin-top: 20px;
 			}
-			#about-me ul {
-				margin-top: -350px;
-				margin-left: 322px;
-				font-size: 1em;
-				line-height: 250%;
+			#arrow i {
+				font-size: 0.6em;
 			}
-			#about-me p {
-				margin-top: 365px;
-				margin-left: -40px;
-				font-size: 0.8em;
+			#emoji {
+				font-size: 3em;
+				text-align: center;
+				margin: 0px;
 			}
-			#about-me a {
-				color: #00BCD4;
-			}
-			#about-me img {
-				margin-left: 10px;
-				height: 330px;
-				width: auto;
-				margin-top: 170px;
+			.about-me p {
+				font-size: 1.8em;
+				text-align: center;
+				margin: 0px;
+
 			}
 		</style>
 	</section>
-	<section class="slide" id="about-me">
-		<h2>Hi, I'm Stephanie.</h2>
-		<img class="place top left" src="images/burningman.jpg" />
-		<p><em>I have delicious stroopwafels, find me later!</em></p>
-		<ul>
-			<li class="next">[self-taught] Frontend developer</li>
-			<li class="next">Live in Amsterdam</li>
-			<li class="next">Regularly host a <a href="https://www.meetup.com/Bitches-and-Bytes">coffee + code</a> small code group ☕️+💻</li>
-			<li class="next">Co-organized <a href="http://stupidhackathon.wtf">Stupid Hackathon Amsterdam</a> 💩🛠</li>
-		</ul>
-	</section>
-	<section class="slide" id="main-thing">
-		<h2 class="shout">But the main thing you should know about me...</h2>
+
+	<section class="slide" id="confession">
+		<h2 class="shout">And I have a confession...</h2>
 		<style>
 		.slide .shout::after {
 			position:absolute;
@@ -199,6 +185,48 @@
 		}
 		</style>
 	</section>
+
+	<section class="slide" id="about-me-2">
+		<h2 class="about-me">I'm not an artist.</h2>
+		<p>👩‍🎨</p>
+		<style>
+			#about-me-2 h2 {
+				color:#212121;
+				font-family: 'Press Start 2P', cursive;
+				font-size: 1.6em;
+				text-align: center;
+				margin-top: 120px;
+			}
+			#about-me-2 p {
+				font-size: 3em;
+				text-align: center;
+			}
+		</style>
+	</section>
+
+	<section class="slide" id="love-art">
+		<h2>But...</h2>
+		<p class="next">I 💖 experiencing art.</p>
+			<!-- I'm interested in art installations, creating human interactions, and things create joy for others
+			But never actually created one myself. -->
+		<style>
+			#love-art h2 {
+				color:#212121;
+				font-family: 'Press Start 2P', cursive;
+				font-size: 1.6em;
+				text-align: center;
+				margin-bottom: 80px;
+			}
+
+			#love-art p {
+				font-size: 1.8em;
+				text-align: center;
+				margin: 0px;
+
+			}
+		</style>
+	</section>
+
 	<section class="slide" id="geolize">
 		<p id="blockquote">"I like fun projects!"</p>
 		<p>- Stephanie Nemeth</p>
@@ -274,53 +302,6 @@
 			 -webkit-transform: translateX(0%);
 			 transform: translateX(0%);
 			 }
-			}
-		</style>
-	</section>
-	<section class="slide" id="my-project2">
-		<h2>What It Does</h2>
-		<video class="place center" width="640" height="480" controls>
-			<source src="images/react-native-demo.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		<style>
-			#my-project2 h2 {
-				color:#212121;
-				font-family: 'Press Start 2P', cursive;
-				font-size: 1.2em;
-				}
-			#my-project2 video {
-				margin-top: 30px;
-			}
-		</style>
-	</section>
-	<section class="slide" id="my-project">
-		<h2>Stuff For This Project</h2>
-		<img class="place left next" src="images/raspberry_pi.jpg">
-		<span class="plus next"><i class="fa fa-plus fa-2x"></i></span>
-		<img class="place center next" src="images/unicorn_hat.jpg">
-		<span class="plus2 next"><i class="fa fa-plus fa-2x"></i></span>
-		<img class="place right next" src="images/languages.png"/>
-		<style>
-			#my-project h2 {
-				color:#212121;
-				font-family: 'Press Start 2P', cursive;
-				font-size: 1.2em;
-				}
-			#my-project a {
-				color: #00BCD4;
-			}
-			#my-project img {
-				height: 300px;
-				width: auto;
-			}
-			.plus i {
-				margin-top: 140px;
-				margin-left: 220px;
-			}
-			.plus2 i {
-				margin-top: 140px;
-				margin-left: 330px;
 			}
 		</style>
 	</section>
@@ -466,6 +447,54 @@
 			}
 		</style>
 	</section>
+	<section class="slide" id="my-project">
+		<h2>Stuff For This Project</h2>
+		<img class="place left next" src="images/raspberry_pi.jpg">
+		<span class="plus next"><i class="fa fa-plus fa-2x"></i></span>
+		<img class="place center next" src="images/unicorn_hat.jpg">
+		<span class="plus2 next"><i class="fa fa-plus fa-2x"></i></span>
+		<img class="place right next" src="images/languages.png"/>
+		<style>
+			#my-project h2 {
+				color:#212121;
+				font-family: 'Press Start 2P', cursive;
+				font-size: 1.2em;
+				}
+			#my-project a {
+				color: #00BCD4;
+			}
+			#my-project img {
+				height: 300px;
+				width: auto;
+			}
+			.plus i {
+				margin-top: 140px;
+				margin-left: 220px;
+			}
+			.plus2 i {
+				margin-top: 140px;
+				margin-left: 330px;
+			}
+		</style>
+	</section>
+	<section class="slide" id="my-project2">
+		<h2>What It Does</h2>
+		<video class="place center" width="640" height="480" controls>
+			<source src="images/react-native-demo.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<style>
+			#my-project2 h2 {
+				color:#212121;
+				font-family: 'Press Start 2P', cursive;
+				font-size: 1.2em;
+				}
+			#my-project2 video {
+				margin-top: 30px;
+			}
+		</style>
+	</section>
+
 	<section class="slide" id="my-project3">
 		<h2>How does it send messages?</h2>
 		<img class="place center" src="images/projectschema.png" />
@@ -498,87 +527,6 @@
 				line-height: 130%;
 				}
 		</style>
-	</section>
-	<section class="slide" id="socket-io">
-		<h2>Setting Up the Server</h2>
-		<pre>
-			<code>var server = http.createServer(app);</code>
-			<code class="mark">var io = require('socket.io').listen(server);</code>
-			<code class="mark">io.on('connection', function(socket){</code>
-			<code>	console.log("CLIENT CONNECTED 💃 ");</code>
-			<code class="mark">	socket.on('stateChanged', function(state){</code>
-			<code class="mark">		io.emit("updateState", state);</code>
-			<code>	});</code>
-			<code>});</code>
-		</pre>
-		<style>
-			#socket-io h2 {
-				color:#212121;
-				font-family: 'Press Start 2P', cursive;
-				font-size: 1.2em;
-			}
-			.slide pre code:not(:only-child).mark {
-				background: #B2EBF2;
-			}
-		</style>
-	</section>
-	<section class="slide" id="pi-client">
-		<h2>Setting Up the Pi Client</h2>
-		<pre>
-			<code>from socketIO_client import SocketIO</code>
-			<code class="mark">socketIO = SocketIO('https://light-art.herokuapp.com')</code>
-			<code> </code>
-			<code>def main():</code>
-			<code>	# Listen</code>
-			<code>	socketIO.on('connect', connect)</code>
-			<code> </code>
-			<code>	# Receive a message from a react client!</code>
-			<code class="mark">	socketIO.on('updateState', updateState)</code>
-		</pre>
-		<style>
-			#pi-client::after {
-				visibility: hidden;
-			}
-			#pi-client h2 {
-				color:#212121;
-				font-family: 'Press Start 2P', cursive;
-				font-size: 1.2em;
-				}
-			#pi-client code {
-				line-height: 150%;
-			}
-		</style>
-	</section>
-	<section class="slide" id="react-client">
-		<h2>Setting Up React Client</h2>
-		<pre>
-			<code>import React, { Component } from 'react'</code>
-			<code class="mark">import io from 'socket.io-client'</code>
-			<code class="mark">const socket = io('https://light-art.herokuapp.com', {})</code>
-			<code> </code>
-			<code>class App extends Component {</code>
-			<code>...</code>
-			<code>	sendMessage = (status, data) => {</code>
-			<code class="mark">		socket.emit('stateChanged',</code>
-			<code>		{message: "Light Design Submitted",</code>
-			<code>		squares: this.state.squares })</code>
-			<code>	}</code>
-			<code>}</code>
-		</pre>
-		<style>
-			#react-client::after {
-				visibility: hidden;
-			}
-			#react-client h2 {
-				color:#212121;
-				font-family: 'Press Start 2P', cursive;
-				font-size: 1.2em;
-				}
-			#react-client code {
-				line-height: 150%;
-			}
-		</style>
-	</section>
 	</section>
 	<section class="slide" id="demo-time">
 		<h2 class="shout">Let's demo this thing!! 🎉✨👾🎨💩🦄</h2>
@@ -684,33 +632,6 @@
 			}
 		</style>
 	</section>
-	<section class="slide" id="react-native">
-		<h2>Lessons Learned: React & React Native</h2>
-		<ul>
-			<li class="next">These frameworks <b>ARE NOT</b> "write once, run anywhere."</li>
-			<li class="next">These frameworks <b>ARE</b> "learn once, write anywhere.”</li>
-			<li class="next">Less pre-built OSS components available for React Native ⚠️</li>
-			<ul>
-				<li class="next">e.g. I had to build my own color picker for React Native app</li>
-			</ul>
-			<li class="next">Wanna try React Native? Check out <a href="https://getexponent.com">ExponentJS</a>!</li>
-			<ul>
-				<li class="next">User friendly, easy to share and view your app on your own device</li>
-				<li class="next">Don't have to open Xcode or Android Studio, or write any native code.</li>
-			</ul>
-		</ul>
-		<style>
-			#react-native h2 {
-				color:#212121;
-				font-family: 'Press Start 2P', cursive;
-				font-size: 1.1em;
-				line-height: 130%;
-			}
-			#react-native a {
-				color:#00BCD4;
-			}
-		</style>
-	</section>
 	<section class="slide" id="final-thoughts-2">
 		<h2>Final Thoughts 🤔</h2>
 		<ul>
@@ -750,8 +671,8 @@
 	</section>
 	<section class="slide" id="thanks">
 		<h2>Thank you!</h2>
-		<h5>Now go build something useless. 💩🛠💜</h5>
-		<h6 class="slides-url">Slides available at <a href="stephanie.lol/pi-react-presentation">stephanie.lol/pi-react-presentation</a></h6>
+		<h5>Now go create something wonderful. ✌️🛠💜</h5>
+		<h6 class="slides-url">Slides available at <a href="stephanie.lol/codeland-talk">stephanie.lol/codeland-talk</a></h6>
 
 		<p id="my-site"><a href="http://stephanie.lol/">stephanie.lol</a></p>
 		<p id="my-name">Stephanie Nemeth<span id="contact-details"><i class="fa fa-twitter"></i> @stephaniecodes</span></p>
